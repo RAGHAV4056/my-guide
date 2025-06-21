@@ -2,7 +2,7 @@ This is a test file written in README.md which is a markdown file
 
 Listed below is how Github and Git work:
 
-Step 1: Initialise your repository using ```git init``` (initialises a git repository, code can be pushed to github) \n
+Step 1: Initialise your repository using ```git init``` (initialises a git repository, code can be pushed to github)  
 Step 2: Create relevant files and add code (Eg: We have added README.md) \n
 Step 3: Use the command ```git status``` for checking the status of your files. \n
     - If files are untracked, you need to add and commit them before pushing \n

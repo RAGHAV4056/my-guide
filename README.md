@@ -1,14 +1,70 @@
-This is a test file written in README.md which is a markdown file
 
-Listed below is how Github and Git work:
+# Git & GitHub Workflow
 
-Step 1: Initialise your repository using ```git init``` (initialises a git repository, code can be pushed to github)  
-Step 2: Create relevant files and add code (Eg: We have added README.md) \n
-Step 3: Use the command ```git status``` for checking the status of your files. \n
-    - If files are untracked, you need to add and commit them before pushing \n
-    - If files are in staging area, you need to commit them and then push \n
-    - If files are committed, you need to push \n
-Step 4: Adding untracked files using ```git add [filename]``` to add a specific file or ```git add .``` to add all files \n
-Step 5: Commit files in staging area using ```git commit -m "[commit-message]``` \n
-Step 6: Add remote origin using ```git remote add origin git@github.com:[username]/[repository-name].git``` \n
-Step 7: Push the changes using ```git push -u origin main``` \n
+This is a test file written in `README.md`, which is a markdown file.
+
+Listed below is how Git and GitHub work:
+
+---
+
+### Step-by-step Guide
+
+**Step 0:** Create Repo on Github with the name `my-guide` as example here
+
+**Step 1:** Initialize your repository  
+```bash
+git init
+```
+*Initializes a Git repository. After this, code can be pushed to GitHub.*
+
+---
+
+**Step 2:** Create relevant files and add your code  
+Example:  
+```text
+README.md added
+```
+
+---
+
+**Step 3:** Check the status of your files  
+```bash
+git status
+```
+- If files are **untracked**, you need to **add and commit** them before pushing.  
+- If files are in the **staging area**, you need to **commit** them before pushing.  
+- If files are already **committed**, you just need to **push** them.
+
+---
+
+**Step 4:** Add untracked files  
+```bash
+git add [filename]     # Adds a specific file  
+git add .              # Adds all files
+```
+
+---
+
+**Step 5:** Commit files in the staging area  
+```bash
+git commit -m "[your commit message]"
+```
+
+---
+
+**Step 6:** Add a remote origin  
+```bash
+git remote add origin https://github.com/RAGHAV4056/my-guide.git
+```
+
+**Step 7:** Branch  
+```bash
+git branch -M main
+```
+
+---
+
+**Step 8:** Push the changes  
+```bash
+git push -u origin main
+```

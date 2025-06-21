@@ -48,7 +48,7 @@ git add .              # Adds all files
 **Step 5:** Commit files in the staging area  
 ```bash
 git commit -m "[your commit message]"
-```
+
 
 ---
 
